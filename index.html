@@ -1,47 +1,136 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>James Calingo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </head>
-  <body>
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">James Calingo</a>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
-  
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1>About Me</h1>
-  
-        <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-  
-        <p>Hi! If the header at the top wasn't enough indication, my name is James Calingo (or "JC" as all the cool kids call me). Currently, I'm an aspiring web developer who doesn't really know much about web development, so I'm learning it at Rutgers Coding Bootcamp</p>
-  
-        <p>When I'm not trying to figure out why things aren't working and hoping that my computer isn't on fire, I like music, video games, and some third thing that I can't think of right now because I need three things because that's how I set this sentence up.</p>
-  
-        <p>Also, that's not a photo of me. That's a cat.</p>
-  
-      </section>
-  
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Archivo+Black" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>James Calingo</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid text-center bg-success text-light">
+    <div class="container">
+      <h1 class="display-4">JAMES CALINGO</h1>
+      <p class="lead">Future web developer of America and the rest of world. Including Sealand.</p>
     </div>
-  
-    <footer>
-      <div class="container">
-        Copyright &copy; 
+  </div>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-success">
+    <a class="navbar-brand" href="#">James Calingo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-sm-2">
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://jamescalingo.wordpress.com">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+
+    <div class="card mt-5 mb-5">
+      <div class="card-header">
+        <h1>About Me</h1>
       </div>
+      <div class="card-body">
+        <img src="assets/images/cat.jpg" class="img-fluid" alt="Me!">
+        <p>Hi! If the header at the top wasn't enough indication, my name is James Calingo (or "JC" as all the cool kids
+          call me). Currently, I'm an aspiring web developer who doesn't really know much about web development, so I'm
+          learning it at Rutgers Coding Bootcamp.</p>
+        <p>When I'm not trying to figure out why things aren't working and hoping that my computer isn't on fire, I like
+          music, video games, and some third thing that I can't think of right now because I need three things because
+          that's how I set this sentence up.</p>
+        <p>Also, that's not a photo of me. That's a cat.</p>
+      </div>
+
+
+    </div>
+
+    <div id="portfolio" class="card mb-5">
+      <div class="card-header">
+        <h1>A few of the (awesome) things I've worked on</h1>
+      </div>
+
+      <div class="card-body text-center">
+        <div class="row">
+
+          <div class="work col-12 col-md-4 mb-3">
+            <a href="https://jcalingo.github.io/Psychic-Game/">
+              <img src="assets/images/technics-q-c-640-480-1.jpg" class="img-fluid" alt="Are you Psychic">
+              <h3 class="text-center">Are You Psychic?</h3>
+            </a>
+          </div>
+
+          <div class="work col-12 col-md-4 mb-3">
+            <a href="https://jcalingo.github.io/boom-or-bust/">
+              <img src="assets/images/technics-q-c-640-480-2.jpg" class="img-fluid" alt="Boom or Bust">
+              <h3>Boom or Bust</h3>
+            </a>
+          </div>
+
+          <div class="work col-12 col-md-4 mb-3">
+            <a href="https://jcalingo.github.io/TriviaGame/">
+              <img src="assets/images/technics-q-c-640-480-5.jpg" class="img-fluid" alt="Trivia Game">
+              <h3>Trivia Game</h3>
+            </a>
+          </div>
+
+          <div class="work col-12 col-md-4 mb-3">
+            <a href="https://jcalingo.github.io/Train-Scheduler/">
+              <img src="assets/images/technics-q-c-640-480-7.jpg" class="img-fluid" alt="Train Scheduler">
+              <h3>Train Scheduler</h3>
+            </a>
+          </div>
+
+          <div class="work col-12 col-md-4 mb-3">
+            <a href="https://jcalingo.github.io/ChoosyMomsChooseGIF/">
+              <img src="assets/images/technics-q-c-640-480-9.jpg" class="img-fluid" alt="GIFLand">
+              <h3>GIFLand</h3>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+      <div id="contact-card" class="card mb-5">
+        <div class="card-header">
+          <h1>My Social Media (which I have a tendency to neglect)</h1>
+        </div>
+        <div class="card-body text-center">
+          <button class="btn btn-primary">Twitter</button>
+          <button class="btn btn-primary">Instagram</button>
+          <button class="btn btn-primary">LinkedIn</button>
+
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      Copyright &copy; 2019 Me, duh!
     </footer>
-  </body>
-  
-  </html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
   
