@@ -7,12 +7,15 @@ body {
 .display-4, .navbar-brand{
  font-family: 'Archivo Black', sans-serif;
 }
+.jumbotron, .navbar{
+  background: green
+}
 
 .card-header{
   font-family: 'Bree Serif', serif;
 }
 .jumbo-link{
-  font-size: 36px
+  font-size: 18pt
 }
 
 .profile-pic{
