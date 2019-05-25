@@ -6,7 +6,7 @@ function NavTabs() {
     <ul className="nav text-center text-light">
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          About Me, JC
+          About Me
         </Link>
       </li>
 

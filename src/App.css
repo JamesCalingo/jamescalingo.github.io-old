@@ -3,7 +3,6 @@ body {
   font-size: 18px;
 }
 
-
 .jumbotron, .nav-item{
   text-align: center;
   background: green;
@@ -23,10 +22,12 @@ body {
   font-weight: bold
 }
 
-.card-header{
+.card-header, .portfolioTag{
   font-family: 'Bree Serif', serif;
 }
-
+.portfolioTag{
+  font-size: 50pt
+}
 .profile-pic{
   width: 25%
 }

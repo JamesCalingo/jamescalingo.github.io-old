@@ -6,7 +6,7 @@ function ExternalLinks () {
     <div className="card">
     <div className="card-header"><h1>External Links</h1>
     <div className="card-body">
-    <a href="https://jamescalingo.wordpress.com"></a>blog</div>
+    <a href="https://jamescalingo.wordpress.com">Blog</a></div>
       </div>
       </div>
       </div>
