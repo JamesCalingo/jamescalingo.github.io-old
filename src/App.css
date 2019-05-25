@@ -4,7 +4,7 @@ body {
 }
 
 
-.jumbotron, .nav{
+.jumbotron, .nav-item{
   text-align: center;
   background: green;
   color: white
