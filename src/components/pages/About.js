@@ -3,10 +3,10 @@ import React from "react";
 function About () {
   return(
     <div className="container">
-    <div className="card">
+    <div className="card mb-5">
     <div className="card-header"><h1>About Me</h1></div>
     <div class="card-body">
-        <img src="../images/picture-of-me.jpg" class="img-fluid fa-pull-left mr-3 img-thumbnail profile-pic"
+        <img src="src/images/picture-of-me.jpg" class="img-fluid fa-pull-left mr-3 img-thumbnail profile-pic"
           alt="Me! (Well, it will be soon...)" />
         <p>Hi! If the header at the top wasn't enough indication, my name is James Calingo (or "JC" as all the cool kids
           call me).</p>

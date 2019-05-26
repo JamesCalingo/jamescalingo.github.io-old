@@ -3,7 +3,7 @@ body {
   font-size: 18px;
 }
 
-.jumbotron, .nav-item{
+.jumbotron{
   text-align: center;
   background: green;
   color: white
@@ -30,4 +30,8 @@ body {
 }
 .profile-pic{
   width: 25%
+}
+
+.topBar{
+  color: white
 }

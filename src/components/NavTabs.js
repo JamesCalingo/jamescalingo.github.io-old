@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function NavTabs() {
   return (
-    <ul className="nav text-center text-light">
-      <li className="nav-item">
-        <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
+    <ul className="nav text-light justify-content-center">
+      <li className="nav-item topBar">
+        <Link to="/" className= {window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
           About Me
         </Link>
       </li>
