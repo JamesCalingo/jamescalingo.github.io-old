@@ -52,13 +52,19 @@
   "id": 8,
   "title": "Hamburger Thingamajigger",
   "link": "https://eatyourhamburgersapollo.herokuapp.com/",
-  "description": "'Eat Your Hamburgers, Apollo.'\n-Phoenix Wright, (former) defense attorney"
+  "description": "''Eat Your Hamburgers, Apollo.''\n-Phoenix Wright, (former) defense attorney"
 },
 
 {
   "id": 9,
   "title": "Clicky",
-  "description": "Click stuff."
-}
+  "link": "https://jamescalingo.github.io/clicky/",
+  "description": "A game where you click on images - but ONLY ONCE!"
+},
+
+{"id": 10,
+"title": "Tippa",
+"link": "https://jamescalingo.github.io/tippa",
+"description": "An app to calculate how much to tip - as well as how to split the tip amongst friends."}
 ]
 
