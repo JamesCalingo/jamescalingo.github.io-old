@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Jumbotron from "./components/Jumbotron";
 // import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -11,7 +11,7 @@ import "./App.css"
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <div>
         <Jumbotron />
         <Route exact path="/" component={About} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/externallinks" component={ExternalLinks} />
         
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

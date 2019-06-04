@@ -8,7 +8,7 @@ function Contact() {
           <h1>Contact me!</h1>
         </div>
         <div className="card-body">
-        WORKING ON THIS</div>
+        This part is still under construction (for now), but if you have questions you want to ask me, email me at james.calingo@gmail.com, and I'll try to get back to you as soon as I can.</div>
       </div>
     </div>
   )

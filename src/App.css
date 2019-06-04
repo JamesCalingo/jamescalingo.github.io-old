@@ -25,6 +25,7 @@ body {
 
 .card-header, .portfolioTag{
   font-family: 'Bree Serif', serif;
+  text-align: center
 }
 .portfolioTag{
   font-size: 50pt
@@ -33,6 +34,6 @@ body {
   width: 25%
 }
 
-.topBar{
+.nav-item{
   color: white
 }
