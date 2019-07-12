@@ -14,20 +14,20 @@ class Portfolio extends React.Component {
         <div className="card">
           <div className="card-header"><h1>A few of the (awesome) things I've worked on</h1></div>
           <div className="card-body">
-            <div className="row">
+            
                 {/* Cards for projects */}
                 {this.state.projects.map(projects =>{
           return(
             
-              <div className="col-12 col-md-4">
+              
             <PortfolioCard key={projects.id}
-            title={projects.title} description={projects.description} link={projects.link}
+            title={projects.title} description={projects.description} link={projects.link} github={projects.github}
             />
-            </div>
+            
             
           )
         })}
-</div>
+
 
                 {/* END CARD */}
               
