@@ -3,6 +3,8 @@
   "id": 1,
   "title": "Psychic Game",
   "link": "https://jamescalingo.github.io/Psychic-Game/",
+  "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
+  "alt": "Are You Psychic?",
   "description": "Guess a randomly generated letter.\nYour odds may seem low, but you are psychic - right?",
   "github": "https://github.com/JamesCalingo/Psychic-Game"
 },
@@ -11,16 +13,10 @@
   "id": 2,
   "title": "Boom or Bust",
   "link": "https://jamescalingo.github.io/boom-or-bust",
+  "image": "placehoder",
+  "alt": "Boom or Bust",
   "description": "It's kinda like Blackjack, but EXTREME!\nA different game every time you play - can you handle it?",
   "github": "https://github.com/JamesCalingo/boom-or-bust"
-},
-
-{
-  "id": 3,
-  "title": "Quizzboyzz Trivia",
-  "link": "https://jamescalingo.github.io/TriviaGame/",
-  "description": " 10 random questions from my crazy mind.\n2 minutes to answer all of them.\nHow will you fare?",
-  "github": "https://github.com/JamesCalingo/TriviaGame"
 },
 
 {
@@ -53,14 +49,6 @@
   "link": "https://node-notes-jamescalingo.herokuapp.com/",
   "description": " A note taking app...for your browser! Now you can take notes and browse without switching programs! (Whether or not that's useful is another issue entirely.)",
   "github": "https://github.com/JamesCalingo/NodeNotes"
-},
-
-{
-  "id": 8,
-  "title": "Hamburger Thingamajigger",
-  "link": "https://eatyourhamburgersapollo.herokuapp.com/",
-  "description": "''Eat Your Hamburgers, Apollo.''\n-Phoenix Wright, (former) defense attorney",
-  "github": "https://github.com/JamesCalingo/eatyourhamburgersapollo"
 },
 
 {

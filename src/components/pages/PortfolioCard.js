@@ -7,6 +7,7 @@ function PortfolioCard (props){
                       <a href={props.link}><h3>{props.title}</h3></a>
                       </div>
                       <div className="card-body border-bottom mb-2">
+                      <img src={props.image} alt={props.alt}></img>
                       {props.description}</div>
                     <a className="text-right" href={props.github}>Github</a>
                   </div>
