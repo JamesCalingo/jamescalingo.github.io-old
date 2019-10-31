@@ -5,7 +5,7 @@ function Technologies (){
     <div className="container">
     <div className="card">
     <div className="card-header">
-    <h1>Technologies I've learned</h1>
+    <h1>Technologies I've learned (or am learning)</h1>
     </div>
     <div className="card-body">
     <ul>
@@ -18,6 +18,7 @@ function Technologies (){
       <li>MySQL</li>
       <li>MongoDB</li>
       <li>React</li>
+      <li>Angular</li>
       </ul>
       </div>
     </div>

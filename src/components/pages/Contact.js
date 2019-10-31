@@ -8,7 +8,21 @@ function Contact() {
           <h1>Contact me!</h1>
         </div>
         <div className="card-body">
-        This part is still under construction (for now), but if you have questions you want to ask me, email me at james.calingo@gmail.com, and I'll try to get back to you as soon as I can.</div>
+        You can email me at james.calingo@gmail.com, or if you want, you can leave a comment here. I can't promise I'll read it though, so be aware of that!
+        <form>
+  <div className="form-group">
+    <label for="emailAddress">Email address</label>
+    <input type="email" class="form-control" id="emailInput1" placeholder="name@example.com" />
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="Textarea">Your comment</label>
+    <textarea className="form-control" id="Textarea" rows="5"></textarea>
+  </div>
+  <button className="btn btn-primary" disabled>Submit...when I get this working.</button>
+</form>
+</div>
       </div>
     </div>
   )
