@@ -1,5 +1,12 @@
-
 [{
+  "id": 0,
+  "title": "JavArcade",
+  "link": "https://jamescalingo.github.io/JavArcade/",
+  "description": "Games, games, games!",
+  "github": "https://github.com/JamesCalingo/JavArcade"
+},
+
+{
   "id": 1,
   "title": "SApptember",
   "link": "https://jamescalingo.github.io/SApptember/",
