@@ -10,7 +10,7 @@
   "id": 1,
   "title": "SApptember",
   "link": "https://jamescalingo.github.io/SApptember/",
-  "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
+  "image": "/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
   "alt": "Sapptember?",
   "description": "30 days, 30 web apps! Plus, a Warren Sapp joke!",
   "github": "https://github.com/JamesCalingo/SApptember"
@@ -19,7 +19,7 @@
   {
   "id": 2,
   "title": "Psychic Game",
-  "link": "https://jamescalingo.github.io/Psychic-Game/",
+  "link": "https://jamescalingo.github.io/PsychicGame/",
   "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
   "alt": "Are You Psychic?",
   "description": "Guess a randomly generated letter.\nYour odds may seem low, but you are psychic - right?",
@@ -96,11 +96,17 @@
 "github": "https://github.com/JamesCalingo/Tippa"},
 
 {"id": 12,
+"title": "Wilbur the Dodo",
+"link": "https://jamescalingo.github.io/WilburtheDodo",
+"description": "Lifting off November Oscar Whiske...r.",
+"github": "https://github.com/JamesCalingo/WilburtheDodo"},
+
+{"id": 98,
 "title": "Liri",
 "description": "A Siri-esque app that runs in your computer's terminal window. As such, there's actually no link for it...",
 "github": "https://github.com/JamesCalingo/Liri"},
 
-{"id": 13,
+{"id": 99,
 "title": "Bamazon",
 "description": "A Node.js version of a popular consumer website. Like Liri, runs in terminal so there's no link for it.",
 "github": "https://github.com/JamesCalingo/Bamazon"}

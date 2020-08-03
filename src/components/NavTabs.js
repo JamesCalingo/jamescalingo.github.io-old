@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavTabs() {
   return (
-    <ul className="nav justify-content-center">
+    <ul className="nav justify-content-center mb-3">
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
           About Me
@@ -36,14 +36,14 @@ function NavTabs() {
           Contact
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/externallinks"
           className={window.location.pathname === "/externallinks" ? "nav-link active" : "nav-link"}
         >
           External Links
         </Link>
-      </li>
+      </li> */}
     </ul>
   );
 }

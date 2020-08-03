@@ -5,9 +5,12 @@ import NavTabs from "./NavTabs"
 
 function Jumbotron (){
   return(
-    <div className="jumbotron-fluid py-3 mb-5 text-center">
+    <div>
+    <div className="jumbotron-fluid py-3 text-center">
     <h1  className="display-4">JAMES CALINGO</h1>
-    <p className="lead">Web developer. Musician. Gamer. Dorito addict.</p>
+    <p className="lead">Web and software developer for the people.</p>
+    
+    </div>
     <NavTabs />
     </div>
   )

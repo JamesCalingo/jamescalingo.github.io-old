@@ -21,6 +21,7 @@ function Technologies (){
       <li>React</li>
       <li>Angular</li>
       <li>Python</li>
+      <li>Java</li>
       </ul>
       </div>
     </div>
