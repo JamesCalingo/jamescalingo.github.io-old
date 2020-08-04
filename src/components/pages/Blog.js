@@ -8,7 +8,7 @@ function Blog() {
           <h1>Blog</h1>
         </div>
         <div className="card-body text-center">
-          This is under construction for now, but you can read some of my old blog stuff <a href="http://jamescalingo.wordpress.com">here!</a>
+          This is under construction for now, but you can read some of my old blog stuff <a href="http://jamescalingo.wordpress.com" target="_blank" rel="noopener noreferrer">here!</a>
 
 
 
