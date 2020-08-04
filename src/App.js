@@ -5,9 +5,10 @@ import Jumbotron from "./components/Jumbotron";
 import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
+import Blog from "./components/pages/Blog"
 import ExternalLinks from "./components/pages/ExternalLinks";
 import Technologies from "./components/pages/Technologies";
-import ButtonBar from "./components/ButtonBar"
+import ButtonBar from "./components/ButtonBar";
 import "./App.css"
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/externallinks" component={ExternalLinks} />
         <Route exact path="/technologies" component={Technologies} />
+        <Route exact path ="/blog" component={Blog} />
         <p className="text-center"></p>
         <ButtonBar />
       </div>

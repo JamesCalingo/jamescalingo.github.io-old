@@ -9,7 +9,7 @@ function About () {
     <div className="card-header"><h1>About Me</h1></div>
     <div class="card-body">
         <img src={profilePic} class="img-fluid float-left mr-3 img-thumbnail profile-pic"
-          alt="A photo of me!" />
+          alt="James Calingo" />
         <p>Hi! If the header at the top wasn't enough indication, my name is James Calingo (or "JC" as all the cool kids
           call me).</p>
         <p>Born in Massachusetts across the Charles River from Boston and raised in Jersey across the Hudson River from

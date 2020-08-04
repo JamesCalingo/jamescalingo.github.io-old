@@ -1,11 +1,4 @@
-[{
-  "id": 0,
-  "title": "JavArcade",
-  "link": "https://jamescalingo.github.io/JavArcade/",
-  "description": "Games, games, games!",
-  "github": "https://github.com/JamesCalingo/JavArcade"
-},
-
+[
 {
   "id": 1,
   "title": "SApptember",
@@ -96,10 +89,21 @@
 "github": "https://github.com/JamesCalingo/Tippa"},
 
 {"id": 12,
-"title": "Wilbur the Dodo",
-"link": "https://jamescalingo.github.io/WilburtheDodo",
-"description": "Lifting off November Oscar Whiske...r.",
-"github": "https://github.com/JamesCalingo/WilburtheDodo"},
+"title": "JavaSnake",
+"link": "https://jamescalingo.github.io/JavaSnake",
+"description": "The classic Nokia phone game - made in JavaScript!",
+"github": "https://github.com/JamesCalingo/JavaSnake"},
+
+{"id": 13,
+  "title": "Wilbur the Dodo",
+  "link": "https://jamescalingo.github.io/WilburtheDodo",
+  "description": "Lifting off November Oscar Whiske...r.",
+  "github": "https://github.com/JamesCalingo/WilburtheDodo"},
+
+{"id": 20,
+  "title": "Python Pong",
+  "description": "Pong (and other games) made in Python. It doesn't run in browser, but you can see/download the code here.",
+  "github": "https://github.com/JamesCalingo/PythonStation"},
 
 {"id": 98,
 "title": "Liri",

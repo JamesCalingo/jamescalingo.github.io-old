@@ -13,6 +13,9 @@ function ButtonBar(){
       <img src={githubLogo} className="buttonLogo" alt="GitHub"/>
     </button>
     </a>
+<button className="btn btn-outline-primary">
+    <a href="mailto:james.calingo@gmail.com">Email me</a>
+    </button>
     </div>
   )
 }
