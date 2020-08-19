@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavTabs() {
   return (
-    <ul className="nav justify-content-center mb-3">
+    <ul className="nav justify-content-center mb-1">
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
           About Me
