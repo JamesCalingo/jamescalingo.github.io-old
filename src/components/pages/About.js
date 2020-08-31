@@ -4,7 +4,7 @@ import profilePic from '../../images/picture-of-me.jpg';
 
 function About () {
   return(
-    <div className="container">
+    <div id="about" className="container mb-5">
     <div className="card">
     <div className="card-header"><h1>About Me</h1></div>
     <div class="card-body">
@@ -21,6 +21,7 @@ function About () {
 
       </div>
     </div>
+    <a href="/">Return to top</a>
     </div>
     
   )

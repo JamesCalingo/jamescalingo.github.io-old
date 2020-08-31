@@ -1,40 +1,37 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function NavTabs() {
   return (
     <ul className="nav justify-content-center mb-1">
       <li className="nav-item">
-        <Link to="/about" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <a href="#about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
           About Me
-        </Link>
+        </a>
       </li>
 
       <li className="nav-item">
-        <Link
-          to="/portfolio"
+        <a href="#portfolio"
           className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
         >
           Portfolio
-        </Link>
+        </a>
       </li>
 
       <li className="nav-item">
-        <Link
-          to="/technologies"
+        <a href="#technologies"
           className={window.location.pathname === "/technologies" ? "nav-link active" : "nav-link"}
         >
           Tech Skills
-        </Link>
+        </a>
       </li>
 
       <li className="nav-item">
-        <Link
-          to="/blog"
-          className={window.location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+        <a
+          href="https://jamescalingo.vercel.app/"
+          className={window.location.pathname === "/blog" ? "nav-link active bg-dark" : "nav-link"}
         >
           Blog
-        </Link>
+        </a>
       </li>
       {/* <li className="nav-item">
         <Link

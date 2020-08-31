@@ -2,10 +2,10 @@ import React from "react";
 
 function Technologies (){
   return(
-    <div className="container">
+    <div id="technologies" className="container mb-5">
     <div className="card">
     <div className="card-header">
-    <h1>Useful languages and technologies I've learned (or am learning)</h1>
+    <h1>Useful languages and technologies I've learned (or I'm trying to learn)</h1>
     </div>
     <div className="card-body">
     <ul>
@@ -25,6 +25,7 @@ function Technologies (){
       </ul>
       </div>
     </div>
+    <a href="/">Return to top</a>
     </div>
   )
 }

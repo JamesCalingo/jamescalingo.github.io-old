@@ -10,7 +10,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div id="portfolio" className="container">
         <div className="card">
           <div className="card-header"><h1>A few of the (awesome) things I've worked on</h1></div>
           <div className="card-body">
@@ -38,6 +38,7 @@ class Portfolio extends React.Component {
             </div>
           </div>
         </div>
+        <a href="/">Return to top</a>
       </div>
     )
   }
