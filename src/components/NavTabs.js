@@ -5,7 +5,7 @@ function NavTabs() {
   return (
     <ul className="nav justify-content-center mb-1">
       <li className="nav-item">
-        <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <Link to="/about" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
           About Me
         </Link>
       </li>
