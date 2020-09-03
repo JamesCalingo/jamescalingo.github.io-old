@@ -5,14 +5,14 @@ function Technologies (){
     <div id="technologies" className="container mb-5">
     <div className="card">
     <div className="card-header">
-    <h1>Useful languages and technologies I've learned (or I'm trying to learn)</h1>
+    <h2>Useful languages and technologies I've learned (or I'm trying to learn)</h2>
     </div>
     <div className="card-body">
     <ul>
       <li>HTML</li>
       <li>CSS</li>
       <li>Bootstrap</li>
-      <li>Javascript</li>
+      <li>Javascript/Typescript</li>
       <li>JQuery</li>
       <li>Node.js</li>
       <li>Express</li>
@@ -25,7 +25,6 @@ function Technologies (){
       </ul>
       </div>
     </div>
-    <a href="/">Return to top</a>
     </div>
   )
 }

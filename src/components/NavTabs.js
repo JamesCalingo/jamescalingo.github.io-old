@@ -18,14 +18,6 @@ function NavTabs() {
       </li>
 
       <li className="nav-item">
-        <a href="#technologies"
-          className={window.location.pathname === "/technologies" ? "nav-link active" : "nav-link"}
-        >
-          Tech Skills
-        </a>
-      </li>
-
-      <li className="nav-item">
         <a
           href="https://jamescalingo.vercel.app/"
           className={window.location.pathname === "/blog" ? "nav-link active bg-dark" : "nav-link"}
