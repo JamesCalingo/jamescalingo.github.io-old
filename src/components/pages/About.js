@@ -13,8 +13,8 @@ function About () {
           alt="James Calingo" />
         <p>Hi! If the header at the top wasn't enough indication, my name is James Calingo (or "JC" as all the cool kids
           call me).</p>
-        <p>Born in Massachusetts across the Charles River from Boston and raised in Jersey across the Hudson River from
-          New York (give or take a few miles), I'm an aspiring full stack web developer with experience in many different technologies such as JavaScript, Node, Express, MySQL, Mongo, React, and more (which you can see below). In addition, I'm always looking to add new things to my repertoire because I believe that understanding the base concepts of many things is important to my success.</p>
+        <p>For as long as I can remember, I've been a computer . Whether it was writing stories and papers in Word, playing with sounds in Garageband, or even just surfing the internet, I spent countless hours each day at the computer.</p>
+        <p>In 2019, while searching for a new career path because the old one wasn't working, I found web development through a coding bootcamp. I quickly fell in love with the problem solving nature of it and the feeling of making code work.</p>
         <p>When I'm not busy accidentally breaking things, trying to figure out what I broke, and hoping that my
           computer isn't on fire while trying to get things working again, I like playing music, video games, and
           watching sports.</p>

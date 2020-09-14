@@ -1,42 +1,49 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+
 }
 
-.splash{
+#header {
   text-align: center;
+  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
+}
+
+#name {
   background: green;
-  color: white
+  color: white;
+  font-weight: bold;
+  font-size: 5vw;
 }
 
-.display-4{
-  font-family: 'Archivo Black', sans-serif;
-}
-
-.lead{
+.lead {
   font-size: 18pt;
 }
 
-.jumbo-link{
+.jumbo-link {
   font-size: 24pt;
   font-weight: bold
 }
 
-.card-header, .portfolioTag{
+.card-header,
+.portfolioTag {
   font-family: 'Bree Serif', serif;
   text-align: center
 }
-.portfolioTag{
+
+.portfolioTag {
   font-size: 50pt
 }
-.profile-pic{
+
+.profile-pic {
   width: 25%
 }
 
-.nav-item{
+.nav-item {
   color: white
 }
 
-.buttonLogo{
+.buttonLogo {
   width: 32px
 }

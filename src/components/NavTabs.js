@@ -2,10 +2,10 @@ import React from "react";
 
 function NavTabs() {
   return (
-    <ul className="nav justify-content-center mb-1">
+    <ul className="nav justify-content-center mb-1 mt-0">
       <li className="nav-item">
         <a href="#about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-          About Me
+          About
         </a>
       </li>
 
