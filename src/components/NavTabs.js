@@ -1,26 +1,27 @@
-import React from "react";
+import React from 'react'
 
-function NavTabs() {
+function NavTabs () {
   return (
-    <ul className="nav justify-content-center mb-1 mt-0">
-      <li className="nav-item">
-        <a href="#about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+    <ul className='nav justify-content-center mb-1 mt-0'>
+      <li className='nav-item'>
+        <a href='#about' className={window.location.pathname === '/about' ? 'nav-link active' : 'nav-link'}>
           About
         </a>
       </li>
 
-      <li className="nav-item">
-        <a href="#portfolio"
-          className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+      <li className='nav-item'>
+        <a
+          href='#portfolio'
+          className={window.location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
         </a>
       </li>
 
-      <li className="nav-item">
+      <li className='nav-item'>
         <a
-          href="https://jamescalingo.vercel.app/"
-          className={window.location.pathname === "/blog" ? "nav-link active bg-dark" : "nav-link"}
+          href='https://jamescalingo.vercel.app/'
+          className={window.location.pathname === '/blog' ? 'nav-link active bg-dark' : 'nav-link'}
         >
           Blog
         </a>
@@ -34,7 +35,7 @@ function NavTabs() {
         </Link>
       </li> */}
     </ul>
-  );
+  )
 }
 
-export default NavTabs;
+export default NavTabs
