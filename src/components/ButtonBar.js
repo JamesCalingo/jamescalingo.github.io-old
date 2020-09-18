@@ -5,6 +5,7 @@ import githubLogo from '../images/GitHub-Mark-120px-plus.png'
 function ButtonBar () {
   return (
     <div className='text-center'>
+      <h1>Let's stay in touch!</h1>
       <a href='https://www.linkedin.com/in/james-calingo-373164145/' target='_blank' rel='noopener noreferrer'><button className='btn btn-light'>
         <img src={linkedinLogo} className='buttonLogo' alt='LinkedIn' />
                                                                                                                </button>
