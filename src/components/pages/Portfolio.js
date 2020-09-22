@@ -10,7 +10,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <div id="portfolio" className="container">
+      <div id="portfolio" className="container mb-5">
         <div className="card">
           <div className="card-header"><h1>A few of the (awesome) things I've worked on</h1></div>
           <div className="card-body">

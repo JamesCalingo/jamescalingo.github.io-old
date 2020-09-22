@@ -20,7 +20,7 @@ function NavTabs () {
 
       <li className='nav-item'>
         <a
-          href='https://jamescalingo.vercel.app/'
+          href='https://jamescalingo.com/'
           className={window.location.pathname === '/blog' ? 'nav-link active bg-dark' : 'nav-link'}
         >
           Blog

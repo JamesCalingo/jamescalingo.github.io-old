@@ -16,8 +16,8 @@ function About () {
           call me), and I am a software developer.
           </p>
           <p>For as long as I can remember, I've been working with computers. Whether it was writing stories and papers in Word, playing with sounds in Garageband, or even just surfing the internet, I spent countless hours each day at the computer.</p>
-          <p>In 2019, while searching for a career path, I found web development through a coding bootcamp. I quickly fell in love with the problem solving nature of it and the feeling of making code work. Now, I'm writing dynamic applications, learning new things every day, and trying to </p>
-          <p>When I'm not busy accidentally breaking things, trying to figure out what I broke, and hoping that my
+          <p>In 2019, while searching for a career path, I found web development through a coding bootcamp. I quickly fell in love with the problem solving nature of it and the feeling of making code work. Now, I'm writing dynamic applications, learning new things every day, and trying to keep up with the busy world of software development.</p>
+          <p>When I'm not busy writing code, fixing strange bugs, and hoping that my
           computer isn't on fire while trying to get things working again, I like playing music, video games, and
           watching sports.
           </p>

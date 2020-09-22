@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/pages/Header'
 import About from './components/pages/About'
 import Portfolio from './components/pages/Portfolio'
-import ButtonBar from './components/ButtonBar'
+import Contact from './components/pages/Contact'
 import NavTabs from './components/NavTabs'
 import './App.css'
 
@@ -14,7 +14,7 @@ function App () {
       <NavTabs />
       <About />
       <Portfolio />
-      <ButtonBar />
+      <Contact />
     </div>
     // {/* </HashRouter> */}
   )
