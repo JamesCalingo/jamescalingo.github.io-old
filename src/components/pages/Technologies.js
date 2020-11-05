@@ -1,4 +1,5 @@
 import React from "react";
+import './panel.css'
 
 function Technologies() {
   return (
