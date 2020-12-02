@@ -1,15 +1,15 @@
 import React from 'react'
 import profilePic from '../../images/picture-of-me.jpg'
-import Technologies from './Technologies'
+
 
 function About () {
   return (
     <div id='about' className='container mb-5'>
       <div className='card'>
         <div className='card-header'><h1>About Me</h1></div>
-        <div className='card-body'>
+        <div id="bio" className='card-body'>
           <img
-            src={profilePic} className='img-fluid float-left mr-3 img-thumbnail profile-pic'
+            src={profilePic} className='img-thumbnail profile-pic'
             alt='James Calingo'
           />
           <p>Hi! My name is James Calingo (or "JC" as all the cool kids
@@ -24,9 +24,8 @@ function About () {
           <p>There's probably more I could say here, but I can't think of it right now...</p>
 
         </div>
-        <Technologies />
+     
       </div>
-      <a href='/'>Return to top</a>
     </div>
 
   )

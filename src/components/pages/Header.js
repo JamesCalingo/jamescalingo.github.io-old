@@ -5,11 +5,10 @@ function Header () {
 
     <div id='header'>
 
-      <h1 id='name' className='font-weight-bold display-2 pt-1 pb-0'>JAMES CALINGO</h1>
+      <h1>"We are only as strong as our weakest link."</h1>
+      <h2>-Somewhat Ancient Proverb</h2>
 
-      <div>
-        <h1 className='font-weight-bold'>SOFTWARE DEVELOPER</h1>
-      </div>
+      
 
     </div>
   )

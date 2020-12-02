@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioCard from "./PortfolioCard"
-import projects from "../../projects.json"
+import projects from "../../../projects.json"
+import './portfolio.css'
 
 
 class Portfolio extends React.Component {
@@ -10,10 +11,10 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <div id="portfolio" className="container mb-5">
+      <div id="portfolio">
         <div className="card">
           <div className="card-header"><h1>A few of the (awesome) things I've worked on</h1></div>
-          <div className="card-body">
+          <div className="card-body projects">
             
                 {/* Cards for projects */}
                 {this.state.projects.map(projects =>{
@@ -31,14 +32,8 @@ class Portfolio extends React.Component {
 
                 {/* END CARD */}
               
-            <div className="row text-center">
-              <div className="col-12">
-                <h1 className="portfolioTag">MORE TO COME SOON</h1>
-              </div>
-            </div>
           </div>
         </div>
-        <a href="/">Return to top</a>
       </div>
     )
   }

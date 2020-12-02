@@ -1,29 +1,86 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
-
-}
-
-#header {
-  text-align: center;
-  font-family: "Helvetica", sans-serif;
-}
-
-#name {
-  background: green;
+  background: rgb(24,121,9);
+  background: orange;
   color: white;
 }
 
+img{
+  width: 25px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  background: rgb(24,121,9);
+  background: linear-gradient(135deg, rgba(24,121,9,1) 0%, rgba(48,168,29,1) 35%, rgba(0,255,0,1) 100%);
+border: 2px solid black;
+font-family: "Roboto Mono", sans-serif;
+}
+
+.sidebar ul {
+  margin-top: 20%;
+  font-size: 20px
+}
+
+.sidebar li{
+ margin: 15% 0 0 -10%;
+  list-style-type: none;
+ color: white;
+}
+
+.sidebar a{
+  color: white;
+}
+
+.nameCard {
+  font-weight: bold;
+ text-align: center;
+ width: 100%;
+ font-size: 25px
+}
+
+.name {
+  background: green;
+  color: white;
+  padding: 3px;
+  border: 1px solid black
+}
+
+.tagline{
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.pages {
+  margin-left: 26.5%;
+  margin-right: 2%;
+}
+
+.profile-pic{
+  float: left;
+  margin: 0 10px;
+}
 
 .jumbo-link {
   font-size: 24pt;
   font-weight: bold
 }
 
+.card{
+  border: 2px solid white;
+  margin-bottom: 30px;
+  padding: 0 10px
+}
+
 .card-header,
 .portfolioTag {
   font-family: 'Bree Serif', serif;
-  text-align: center
+ text-align: center;
 }
 
 .portfolioTag {
@@ -39,9 +96,11 @@ body {
 }
 
 .buttonLogo {
-  width: 32px
+  width: 32px;
+  background: white;
+  margin-right: 1%
 }
 
-.learning{
-  color: gray;
+#copyright{
+  text-align: right
 }

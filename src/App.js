@@ -1,22 +1,29 @@
 import React from 'react'
-import Header from './components/pages/Header'
 import About from './components/pages/About'
-import Portfolio from './components/pages/Portfolio'
+import Technologies from './components/pages/Technologies/Technologies'
+import Portfolio from './components/pages/Portfolio/Portfolio'
 import Contact from './components/pages/Contact'
-import NavTabs from './components/NavTabs'
+import Sidebar from './components/Sidebar'
 import './App.css'
+import Copyright from './components/Copyright'
 
 function App () {
   return (
-    // <HashRouter basename="/">
+   
     <div>
-      <Header />
-      <NavTabs />
+      <Sidebar />
+      {/* <HashRouter basename="/"> */}
+      <div className="pages">
       <About />
+      {/* <Technologies /> */}
       <Portfolio />
       <Contact />
+      <Copyright />
+      </div>
+     {/* </HashRouter> */}
+
     </div>
-    // {/* </HashRouter> */}
+
   )
 }
 

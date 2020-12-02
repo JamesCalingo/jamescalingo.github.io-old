@@ -1,7 +1,24 @@
 import React from "react";
-import './panel.css'
+import './technologies.css'
 
 function Technologies() {
+
+  const panels = document.querySelectorAll('.panel')
+
+  function toggleOpen () {
+    this.classList.toggle('open')
+  }
+  
+  function toggleActive (event) {
+    console.log(event.propertyName)
+    if(event.propertyName.includes("flex")){
+  this.classList.toggle("open-active")
+    }
+  }
+  
+  panels.forEach(panel => panel.addEventListener('click', toggleOpen))
+  panels.forEach(panel => panel.addEventListener('transitionend', toggleActive))
+  
   return (
     <div id="technologies" className="container mb-5">
       <div className="card">
@@ -10,8 +27,8 @@ function Technologies() {
           <p>Things in gray are things I'm working on learning</p>
         </div>
         <div className="card-body">
-          <div className="panels row">
-            <div id="languages" className="panel col-md-4">
+          <div className="panels">
+            <div id="languages" className="panel">
               <h3>Languages</h3>
               <ul>
                 <li>HTML</li>
@@ -27,7 +44,7 @@ function Technologies() {
                 
               </ul>
             </div>
-            <div id="frameworks" className="panel col-md-4">
+            <div id="frameworks" className="panel">
               <h3>Frameworks/Libraries</h3>
               <ul>
                 <li>React</li>
@@ -39,7 +56,7 @@ function Technologies() {
                
               </ul>
             </div>
-            <div id="other" className="panel col-md-4">
+            <div id="other" className="panel">
               <h3>Other Important Things</h3>
               <ul>
               <li>Node.js</li>
@@ -50,6 +67,7 @@ function Technologies() {
                 <li className="learning">Vercel</li>
                 <li className="learning">WebAssembly</li>
                 <li className="learning">FaunaDB</li>
+                <li className="learning">GraphQL</li>
               </ul>
             </div>
           </div>
