@@ -1,24 +1,38 @@
 .projects {
-  margin: 0 25%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%)
 }
 
 .portfolio-card{
-  max-width: 700px;
+  grid-column: 2/4;
   border: 3px solid green;
   text-align: center;
   margin: 15px 0;
 }
 
 .portfolio-card-header {
-  border-bottom: 3 px solid green;
-  margin-top: 0
+  background: green;
+  padding-top: 10px;
+  align-items: center
 }
 
 .portfolio-card-body {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  padding: 10px
 }
 
+.app-link {
+  color: white;
+  font-family: 'Bree Serif', serif;
+font-size: 25px
+}
+
+.portfolio-logo {
+  width: 50px;
+  margin: 10px 0;
+  background: white
+}
 
 

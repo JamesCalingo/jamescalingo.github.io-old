@@ -1,5 +1,5 @@
 import React from "react";
-import './technologies.css'
+// import './technologies.css'
 
 function Technologies() {
 
@@ -20,11 +20,11 @@ function Technologies() {
   panels.forEach(panel => panel.addEventListener('transitionend', toggleActive))
   
   return (
-    <div id="technologies" className="container mb-5">
+    <div id="technologies" className="">
       <div className="card">
         <div className="card-header">
-          <h2>My knowledge base</h2><br />
-          <p>Things in gray are things I'm working on learning</p>
+          <h1>My knowledge base</h1>
+          <h2>Things in gray are things I'm working on learning</h2>
         </div>
         <div className="card-body">
           <div className="panels">

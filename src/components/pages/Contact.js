@@ -31,8 +31,6 @@ function Contact() {
           Email me: james.calingo.web@gmail.com
           </li>
          
-            
-          
           </ul>
           {/* <form>
             <div className='form-group'>
