@@ -21,7 +21,7 @@ body {
 }
 
 
-.sidebar {
+#sidebar {
   position: fixed;
   width: 25%;
   height: 100%;
@@ -32,18 +32,18 @@ body {
   border-radius: 5px;
 }
 
-.sidebar ul {
+#sidebar ul {
   margin-top: 20%;
   font-size: 25px;
 }
 
-.sidebar li {
+#sidebar li {
   margin: 15% 0 0 -10%;
   list-style-type: none;
   color: white;
 }
 
-.sidebar a {
+#sidebar a {
   color: white;
   text-decoration: none
 }
@@ -76,7 +76,7 @@ body {
 
 #landing {
   text-align: center;
-  font-size: 50px;
+  font-size: clamp(1.5rem, 4.5vw, 4.5rem);
   font-family: 'Sansita Swashed', cursive;
   color: white;
 }
@@ -85,11 +85,6 @@ body {
   float: left;
   margin: 0 10px;
   width: 25%
-}
-
-.jumbo-link {
-  font-size: 24pt;
-  font-weight: bold
 }
 
 .card {
@@ -130,23 +125,63 @@ body {
   color: white;
 }
 
+.home-menu{
+  display:none;
+}
+
 
 @media only screen and (max-width: 1000px) {
-  .container-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5% 1fr;
+  body{
+    width: 100%;
   }
 
-  .sidebar {
+ 
+  .container-grid {
+   max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+  }
+
+  .card{
+    margin: 0
+  }
+  
+
+  #sidebar {
     position: fixed;
     top: 0;
-    height: 5%;
+    height: 1%;
     width: 100%;
-    background: orange
+  }
+
+  .dropdown-content {
+    display: none;
+  }
+
+  .home-menu{
+    display: contents;
+  }
+
+  #landing h1{
+    font-size: 45px;
+  }
+  
+  #landing a{
+    color: white;
+    font-family: "Roboto Mono", sans-serif;
   }
 
   .pages {
-    grid-row-start: 2
+    grid-row-start: 2;
+    grid-column-start: 1
   }
+
+  #copyright {
+    text-align: center;
+  }
+
+  .portfolio-card {
+    grid-column: 1 / 5
+  }
+
 }

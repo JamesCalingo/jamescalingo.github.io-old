@@ -6,6 +6,7 @@ import Technologies from './components/pages/Technologies/Technologies'
 import Portfolio from './components/pages/Portfolio/Portfolio'
 import Contact from './components/pages/Contact'
 import Sidebar from './components/Sidebar'
+import MobileMenu from "./components/pages/MobileMenu"
 import './App.css'
 
 
@@ -22,6 +23,7 @@ function App () {
       <Route exact path="/technologies" component={Technologies} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/mobile-menu" component={MobileMenu} />
       </HashRouter>
       <footer id="copyright">
     © James Calingo

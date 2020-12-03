@@ -74,11 +74,13 @@
 
 {"id": 98,
 "title": "Liri",
+"link": "https://www.youtube.com/watch?v=liVtXNgAMng",
 "description": "A Siri-esque app that runs in your computer's terminal window. As such, there's actually no link for it...",
 "github": "https://github.com/JamesCalingo/Liri"},
 
 {"id": 99,
 "title": "Bamazon",
+"link": "https://www.youtube.com/watch?v=iEeGILGqoP8",
 "description": "A Node.js version of a popular consumer website. Like Liri, runs in terminal so there's no link for it.",
 "github": "https://github.com/JamesCalingo/Bamazon"}
 ]

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 25%);
   background: white;
-  color: black
+  color: black;
 }
 
 #explain-github {

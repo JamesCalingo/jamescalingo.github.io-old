@@ -1,12 +1,10 @@
-import React from "react";
+import React from "react"
 
-
-function Landing() {
-
-  return (
-    <div id="landing">
-      <h1>Developer for The Internet™ and the rest of the world. Including Sealand.</h1>
-      <ul className="home-menu">
+export default function MobileMenu() {
+  return(
+    <div id="mobile-menu" className="card">
+      <div className="card-body">
+      <ul>
       <li className='nav-item'>
         <a href='#about'>
           About
@@ -40,7 +38,6 @@ function Landing() {
         </li> */}
     </ul>
     </div>
-  );
+    </div>
+  )
 }
-
-export default Landing;

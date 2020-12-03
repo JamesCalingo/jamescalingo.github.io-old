@@ -1,12 +1,17 @@
 import React from 'react'
 import NameCard from './NameCard'
+import { useMediaQuery } from "react-responsive"
 
 
 function Sidebar () {
+  const isSmallScreen = useMediaQuery({
+    query: "(max-width: 1000px)"
+  })
+
   return (
-    <div className="sidebar">
+    <div id="sidebar" className={isSmallScreen ? "small-screen" : ""}>
     <NameCard />
-    <ul className='justify-content-center mb-1 mt-0'>
+    <ul className={isSmallScreen ? "dropdown-content" : ""}>
       <li className='nav-item'>
         <a href='#about'>
           About
