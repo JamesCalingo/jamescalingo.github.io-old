@@ -23,7 +23,7 @@ function Technologies() {
     <div id="technologies" className="">
       <div className="card">
         <div className="card-header">
-          <h1>My knowledge base</h1>
+          <h1>MY KNOWLEDGE BASE</h1>
           <h2>Things in gray are things I'm working on learning</h2>
         </div>
         <div className="card-body">

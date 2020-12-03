@@ -8,9 +8,9 @@ function PortfolioCard (props) {
       <a href={props.link} target='_blank' rel='noopener noreferrer' className="app-link"><h3>{props.title}</h3></a>
     </div>
     <div className='portfolio-card-body card-body'>
-    <a className="github-link" href={props.github} target='_blank' rel='noopener noreferrer'><img src={githubLogo} className='portfolio-logo' alt='View on GitHub' /></a>
       <img src={props.image} alt={props.alt} />
-      {props.description}
+      <p className="description">{props.description}</p>
+    <a className="github-link" href={props.github} target='_blank' rel='noopener noreferrer'><img src={githubLogo} className='portfolio-logo' alt='View on GitHub' /></a>
     </div>
     
           </div>

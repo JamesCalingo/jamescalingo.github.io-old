@@ -6,12 +6,15 @@ function NameCard() {
   let tagline = taglines[randomI].toUpperCase()
 
   return(
+    <a href="/">
     <div className="nameCard">
+     
       <div className="name">JAMES CALINGO;</div>
       <div className="tagline">
-      {tagline};
+      DEVELOPER;
       </div>
     </div>
+      </a>
   )
 }
 

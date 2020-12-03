@@ -6,7 +6,7 @@ function About () {
   return (
     <div id='about' className='container mb-5'>
       <div className='card'>
-        <div className='card-header'><h1>About Me</h1></div>
+        <div className='card-header'><h1>ABOUT ME</h1></div>
         <div id="bio" className='card-body'>
           <img
             src={profilePic} className='img-thumbnail profile-pic'

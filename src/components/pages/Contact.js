@@ -8,10 +8,13 @@ function Contact() {
     <div id="contact" className='container'>
       <div className='card'>
         <div className='card-header'>
-          <h1>Let's keep in touch!</h1>
+          <h1>CONTACT ME</h1>
         </div>
         <div className='card-body text-center'>
+          <div id="contact-head">
+          <h2>Let's keep in touch!</h2>
           <p>Here are just a few of the places around the internet where you can find me. I'd love to hear from you!</p>
+          </div>
         <ul className="contact-list">
         <li>
           <a href='https://www.linkedin.com/in/james-calingo/' target='_blank' rel='noopener noreferrer'>

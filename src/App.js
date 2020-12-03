@@ -1,28 +1,34 @@
 import React from 'react'
-import Header from "./components/pages/Header"
+import { HashRouter, Route } from 'react-router-dom';
+import Landing from "./components/pages/Landing"
 import About from './components/pages/About'
 import Technologies from './components/pages/Technologies/Technologies'
 import Portfolio from './components/pages/Portfolio/Portfolio'
 import Contact from './components/pages/Contact'
 import Sidebar from './components/Sidebar'
 import './App.css'
-import Copyright from './components/Copyright'
+
 
 function App () {
   return (
    
     <div className="container-grid">
       <Sidebar />
-      {/* <HashRouter basename="/"> */}
+    
       <div className="pages">
-        <Header />
-      <About />
-      <Technologies />
-      <Portfolio />
-      <Contact />
-      <Copyright />
+      <HashRouter basename="/">
+        <Route exact path="/" component={Landing} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/technologies" component={Technologies} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/contact" component={Contact} />
+      </HashRouter>
+      <footer id="copyright">
+    © James Calingo
+    </footer>
       </div>
-     {/* </HashRouter> */}
+    
+ 
 
     </div>
 

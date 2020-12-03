@@ -1,28 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: rgb(24,121,9);
-  background: blue;
-  color: white;
+  background: rgb(24, 121, 9);
+  background: black;
 }
 
 .container-grid {
   display: grid;
-  grid-template-columns: 1fr 3fr
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat (5, 20%);
 }
 
-img{
-  width: 25px;
-}
 
 .sidebar {
   position: fixed;
   width: 25%;
   height: 100%;
   text-align: center;
-  background: rgb(24,121,9);
-  background: linear-gradient(135deg, rgba(24,121,9,1) 0%, rgba(48,168,29,1) 35%, rgba(0,255,0,1) 100%);
-font-family: "Roboto Mono", sans-serif;
+  background: rgb(24, 121, 9);
+  background: linear-gradient(135deg, rgba(24, 121, 9, 1) 0%, rgba(48, 168, 29, 1) 35%, rgba(0, 255, 0, 1) 100%);
+  font-family: "Roboto Mono", sans-serif;
+  border-radius: 5px;
 }
 
 .sidebar ul {
@@ -30,21 +37,22 @@ font-family: "Roboto Mono", sans-serif;
   font-size: 25px;
 }
 
-.sidebar li{
- margin: 15% 0 0 -10%;
+.sidebar li {
+  margin: 15% 0 0 -10%;
   list-style-type: none;
- color: white;
+  color: white;
 }
 
-.sidebar a{
+.sidebar a {
   color: white;
+  text-decoration: none
 }
 
 .nameCard {
   font-weight: bold;
- text-align: center;
- width: 100%;
- font-size: 25px
+  text-align: center;
+  width: 100%;
+  font-size: 25px
 }
 
 .name {
@@ -54,24 +62,26 @@ font-family: "Roboto Mono", sans-serif;
   border: 1px solid black
 }
 
-.tagline{
+.tagline {
   background: white;
   color: black;
   border: 1px solid black;
 }
 
 .pages {
-grid-column: 2 / 5;
-margin: 0 2%;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin: 2%;
 }
 
-#header {
+#landing {
   text-align: center;
   font-size: 50px;
   font-family: 'Sansita Swashed', cursive;
+  color: white;
 }
 
-.profile-pic{
+.profile-pic {
   float: left;
   margin: 0 10px;
   width: 25%
@@ -82,21 +92,31 @@ margin: 0 2%;
   font-weight: bold
 }
 
-.card{
-  border: 5px solid white;
-  margin-bottom: 30px;
-  padding: 0 10px
+.card {
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 0
 }
 
 .card-header {
-  font-family: 'Bree Serif', serif;
- text-align: center;
- border-bottom: 2px solid white
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  background: green;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px 5px 0 0
 }
 
+.card-body {
+  background: white;
+  padding-top: 2%
+}
 
-.nav-item {
-  color: white
+#contact-head {
+  text-align: center;
+  margin-bottom: 3%
 }
 
 .buttonLogo {
@@ -105,10 +125,28 @@ margin: 0 2%;
   margin-right: 1%
 }
 
-#copyright{
-  text-align: right
+#copyright {
+  text-align: right;
+  color: white;
 }
 
-.learning {
-  color: gray
+
+@media only screen and (max-width: 1000px) {
+  .container-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 1fr;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    height: 5%;
+    width: 100%;
+    background: orange
+  }
+
+  .pages {
+    grid-row-start: 2
+  }
 }

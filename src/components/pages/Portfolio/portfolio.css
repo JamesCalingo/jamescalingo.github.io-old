@@ -1,38 +1,52 @@
 .projects {
   display: grid;
-  grid-template-columns: repeat(4, 25%)
+  grid-template-columns: repeat(4, 25%);
+  background: white;
+  color: black
+}
+
+#explain-github {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .portfolio-card{
   grid-column: 2/4;
-  border: 3px solid green;
+  border: 3px solid black;
+  border-radius: 10px;
   text-align: center;
   margin: 15px 0;
 }
 
 .portfolio-card-header {
   background: green;
-  padding-top: 10px;
-  align-items: center
+  padding-top: 0;
+  align-items: center;
+  border-radius: 5px 5px 0 0
 }
 
 .portfolio-card-body {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  padding: 10px
+  padding-bottom: 0
+}
+
+.description {
+  font-size: 25px;
+  border-bottom: 2px solid black
 }
 
 .app-link {
   color: white;
   font-family: 'Bree Serif', serif;
-font-size: 25px
+font-size: 30px;
 }
 
 .portfolio-logo {
   width: 50px;
-  margin: 10px 0;
-  background: white
+  margin-top: 10px;
+
 }
 
 
