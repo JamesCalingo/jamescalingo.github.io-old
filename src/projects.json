@@ -5,7 +5,7 @@
   "link": "https://jamescalingo.github.io/jcjs30112020/",
   "image": "/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
   "alt": "Sapptember?",
-  "description": "The popular 30 day web course, along with my own takes on it",
+  "description": "The popular 30 day web course, along with my own takes on it.",
   "github": "https://github.com/JamesCalingo/jcjs30112020"
 },
 
@@ -13,7 +13,7 @@
   "id": 2,
   "title": "NodeNotes",
   "link": "https://node-notes-jamescalingo.herokuapp.com/",
-  "description": " A note taking app...for your browser! Now you can take notes and browse without switching programs! (Whether or not that's useful is another issue entirely.)",
+  "description": " A note taking app...for your browser!",
   "github": "https://github.com/JamesCalingo/NodeNotes"
 },
   
@@ -75,13 +75,13 @@
 {"id": 98,
 "title": "Liri",
 "link": "https://www.youtube.com/watch?v=liVtXNgAMng",
-"description": "A Siri-esque app that runs in your computer's terminal window. As such, there's actually no link for it...",
+"description": "A Siri-esque app that runs in your computer's terminal program.",
 "github": "https://github.com/JamesCalingo/Liri"},
 
 {"id": 99,
 "title": "Bamazon",
 "link": "https://www.youtube.com/watch?v=iEeGILGqoP8",
-"description": "A Node.js version of a popular consumer website. Like Liri, runs in terminal so there's no link for it.",
+"description": "A Node.js version of a popular consumer website. Like Liri, runs in terminal.",
 "github": "https://github.com/JamesCalingo/Bamazon"}
 ]
 

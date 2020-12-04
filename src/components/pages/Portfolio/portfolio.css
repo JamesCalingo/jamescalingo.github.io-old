@@ -1,40 +1,50 @@
 .projects {
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
-  background: white;
-  color: black;
+  width: 50vw;
+display: flex;
+overflow-x: scroll;
+overflow-y: hidden;
+  border: 3px solid green;
+  border-radius: 10px;
 }
 
-#explain-github {
+.work {
+  display: flex;
+flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-bottom: 15px;
+  margin: 0
+}
+
+#explain {
+  margin: 15px
 }
 
 .portfolio-card{
-  grid-column: 2/4;
+  position: relative;
+  height: 400px;
+background: white;
   border: 3px solid black;
   border-radius: 10px;
   text-align: center;
-  margin: 15px 0;
+  margin: 15px;
 }
 
 .portfolio-card-header {
   background: green;
+  width: 300px;
   padding-top: 0;
   align-items: center;
   border-radius: 5px 5px 0 0
 }
 
 .portfolio-card-body {
-  display: flex;
-  flex-direction: column;
+background: white;
   margin-bottom: 10px;
-  padding-bottom: 0
+  padding-bottom: 0;
 }
 
 .description {
   font-size: 25px;
-  border-bottom: 2px solid black
 }
 
 .app-link {
@@ -43,10 +53,19 @@
 font-size: 30px;
 }
 
+.github-link {
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+}
+
 .portfolio-logo {
   width: 50px;
   margin-top: 10px;
-
 }
 
-
+@media only screen and (max-width: 1000px) {
+  .projects {
+    width: 90vw
+  }
+}

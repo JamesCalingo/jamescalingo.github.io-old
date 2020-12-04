@@ -1,8 +1,16 @@
+h3 {
+  text-align: center;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
 .learning{
   color: gray;
 }
 
-.panels {
+/* .panels {
   min-height: 100vh;
   overflow: hidden;
   display: flex;
@@ -42,7 +50,6 @@
   background: blue;
 }
 
-/* Flexbox items */
 .panel>* {
   margin: 0;
   width: 100%;
@@ -79,4 +86,4 @@
 .cta {
   color: white;
   text-decoration: none;
-}
+} */

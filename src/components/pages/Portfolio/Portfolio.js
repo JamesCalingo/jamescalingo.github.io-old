@@ -17,12 +17,12 @@ class Portfolio extends React.Component {
             <h2>A few of the (awesome) things I've worked on</h2>
           </div>
 
-          <div className="card-body">
+          <div className="work card-body">
 
-            <h2 id="explain-github">
-              Click on the Github logo in each project card to go to the
-              repository for that project
-            </h2>
+            <p id="explain">
+              Here's where you can see a few of the things I've made! Click on the banner on top to go to the app itself, or the Github logo at the bottom of each project card to go to the
+              repository for that project.
+            </p>
 
             <div className="projects">
               {/* Cards for projects */}
