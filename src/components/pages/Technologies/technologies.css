@@ -10,24 +10,23 @@ ul {
   color: gray;
 }
 
-/* .panels {
-  min-height: 100vh;
+@media only screen and (min-width: 1000px)
+{
+.panels {
   overflow: hidden;
   display: flex;
-
 }
 
 .panel {
-  background: white;
   box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
-  color: white;
+  /* color: white; */
   text-align: center;
   align-items: center;
   transition:
     font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
     flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
     background 0.2s;
-  font-size: 40pt;
+  font-size: 20px;
   background-size: cover;
   background-position: center;
   flex: 1;
@@ -37,18 +36,7 @@ ul {
   flex-direction: column;
 }
 
-.panel1 {
-  background: red;
 
-}
-
-.panel2 {
-  background: yellow;
-}
-
-.panel3 {
-  background: blue;
-}
 
 .panel>* {
   margin: 0;
@@ -56,22 +44,24 @@ ul {
   transition: transform 0.5s;
   flex: 1.0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .panel>*:first-child {
-  transform: translateY(-100%);
-  font-size: 40pt
+  /* transform: translateY(-100%); */
+  font-size: 20pt
 }
-
-.panel.open-active>*:first-child {
+/* 
+.panel.active>*:first-child {
   transform: translateY(0);
-}
+  font-size: 30pt
+} */
 
 .panel>*:last-child {
-  transform: translateY(100%);
-  font-size: 40pt
+  /* transform: translateY(100%); */
+  font-size: 20px
 }
 
 .panel.open-active>*:last-child {
@@ -86,4 +76,5 @@ ul {
 .cta {
   color: white;
   text-decoration: none;
-} */
+}
+}

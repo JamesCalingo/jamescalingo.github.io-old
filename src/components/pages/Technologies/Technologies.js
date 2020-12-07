@@ -1,23 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import './technologies.css'
 
 function Technologies() {
 
-  const panels = document.querySelectorAll('.panel')
+ const [isActive, setActive] = useState(false)
 
-  function toggleOpen () {
-    this.classList.toggle('open')
-  }
-  
   function toggleActive (event) {
-    console.log(event.propertyName)
-    if(event.propertyName.includes("flex")){
-  this.classList.toggle("open-active")
-    }
+setActive(!isActive)
+
   }
-  
-  panels.forEach(panel => panel.addEventListener('click', toggleOpen))
-  panels.forEach(panel => panel.addEventListener('transitionend', toggleActive))
   
   return (
     <div id="technologies" className="">
@@ -28,8 +19,8 @@ function Technologies() {
         </div>
         <div className="card-body">
           <div className="panels">
-            <div id="languages" className="panel">
-              <h3>Languages</h3>
+            <div id="languages" onClick={toggleActive} className={isActive ? "active panel" : "panel"}>
+              <h3 className="list-header">Languages</h3>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -44,8 +35,8 @@ function Technologies() {
                 
               </ul>
             </div>
-            <div id="frameworks" className="panel">
-              <h3>Frameworks/Libraries</h3>
+            <div id="frameworks" onClick={toggleActive} className={isActive ? "active panel" : "panel"}>
+              <h3 className="list-header">Frameworks/Libraries</h3>
               <ul>
                 <li>React</li>
                 <li className="learning">Angular</li>
@@ -56,8 +47,8 @@ function Technologies() {
                
               </ul>
             </div>
-            <div id="other" className="panel">
-              <h3>Other Important Things</h3>
+            <div id="other" onClick={toggleActive} className={isActive ? "active panel" : "panel"}>
+              <h3 className="list-header">Other Important Things</h3>
               <ul>
               <li>Node.js</li>
                 <li>Express</li>
