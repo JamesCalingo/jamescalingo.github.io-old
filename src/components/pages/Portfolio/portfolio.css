@@ -1,5 +1,5 @@
 .projects {
-  width: 50vw;
+  width: 64vw;
 display: flex;
 overflow-x: scroll;
 overflow-y: hidden;
@@ -21,12 +21,30 @@ flex-direction: column;
 
 .portfolio-card{
   position: relative;
-  height: 400px;
+  height: 350px;
 background: white;
   border: 3px solid black;
   border-radius: 10px;
   text-align: center;
   margin: 15px;
+}
+
+@media only screen and (min-width: 1000px){
+
+.portfolio-card {
+  box-shadow: -1rem 0 3rem #000;
+  transition: .2s;
+}
+
+
+
+.portfolio-card:hover~.portfolio-card {
+  transform: translateX(130px)
+}
+
+.portfolio-card:not(:first-child) {
+  margin-left: -130px
+}
 }
 
 .portfolio-card-header {

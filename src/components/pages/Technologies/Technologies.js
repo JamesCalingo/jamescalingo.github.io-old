@@ -5,7 +5,7 @@ function Technologies() {
 
  const [isActive, setActive] = useState(false)
 
-  function toggleActive (event) {
+  function toggleActive () {
 setActive(!isActive)
 
   }
