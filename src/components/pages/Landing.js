@@ -33,11 +33,11 @@ function Landing() {
           Blog
         </a>
         </li>
-        {/* <li className="nav-item">
+        <li className="nav-item">
           <a href="https://docs.google.com/document/d/e/2PACX-1vQ2CNmUFp-JwXxwvbgYvfe9-w_5PCCeDiGdZrnBGgbpNQQ0BsDtwjNFi7Qhb6ccY5_9QujoAYZWFxAA/pub">
             Resume
           </a>
-        </li> */}
+        </li>
     </ul>
     </div>
   );

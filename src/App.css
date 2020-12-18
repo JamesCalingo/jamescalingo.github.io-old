@@ -10,7 +10,9 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: rgb(30, 30, 30);
+  background: rgb(0,128,0);
+  background: rgb(0,128,0);
+background: linear-gradient(90deg, rgba(0,128,0,1) 0%, rgba(153,0,255,1) 70%, rgba(83,0,138,1) 100%);
 }
 
 p {
@@ -29,10 +31,9 @@ p {
   width: 25%;
   height: 100%;
   text-align: center;
-  background: rgb(24, 121, 9);
-  background: linear-gradient(135deg, rgba(24, 121, 9, 1) 0%, rgba(48, 168, 29, 1) 35%, rgba(0, 255, 0, 1) 100%);
   font-family: "Roboto Mono", sans-serif;
   border-radius: 5px;
+  border-right: 5px dashed white
 }
 
 #sidebar ul {
