@@ -8,6 +8,13 @@
   },
   {
     "id": 1,
+    "title": "Where do I Worship?",
+    "link": "https://jamescalingo.dev/whereDoIWorship",
+    "description": "A small app for finding churches, temples, etc.",
+    "github": "https://github.com/JamesCalingo/whereDoIWorship"
+  },
+  {
+    "id": 2,
     "title": "The JavaScript 30",
     "link": "https://jamescalingo.github.io/jcjs30112020/",
     "image": "/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
@@ -16,14 +23,14 @@
     "github": "https://github.com/JamesCalingo/jcjs30112020"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "NodeNotes",
     "link": "https://node-notes-jamescalingo.herokuapp.com/",
     "description": " A note taking app...for your browser!",
     "github": "https://github.com/JamesCalingo/NodeNotes"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Psychic Game",
     "link": "https://jamescalingo.github.io/PsychicGame/",
     "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
@@ -32,7 +39,7 @@
     "github": "https://github.com/JamesCalingo/Psychic-Game"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Boom or Bust",
     "link": "https://jamescalingo.github.io/boom-or-bust",
     "image": "placehoder",
@@ -41,14 +48,14 @@
     "github": "https://github.com/JamesCalingo/boom-or-bust"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Tippa",
     "link": "https://jamescalingo.github.io/Tippa/",
     "description": "An app to calculate how much to tip - as well as how to split the tip amongst friends.",
     "github": "https://github.com/JamesCalingo/Tippa"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "JavaSnake",
     "link": "https://jamescalingo.github.io/JavaSnake",
     "description": "The classic Nokia phone game - made in JavaScript!",
