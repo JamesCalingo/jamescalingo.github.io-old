@@ -27,10 +27,10 @@ setActive(!isActive)
                 <li>JavaScript</li>
                 <li>SQL</li>
                 <li>TypeScript</li>
-                <li className="learning">Python</li>
+                <li>GraphQL</li>
                 <li className="learning">Go</li>
                 <li className="learning">Rust</li>
-                <li className="learning">Java</li>
+                <li className="learning">Python</li>
 
                 
               </ul>
@@ -39,8 +39,6 @@ setActive(!isActive)
               <h3 className="list-header">Frameworks/Libraries</h3>
               <ul>
                 <li>React</li>
-                <li className="learning">Angular</li>
-                <li className="learning">Vue</li>
                 <li>Bootstrap</li>
                 <li>JQuery</li>
                 <li className="learning">Jest</li>
@@ -53,12 +51,13 @@ setActive(!isActive)
               <li>Node.js</li>
                 <li>Express</li>
                 <li>MongoDB</li>
+                <li>MySQL</li>
                 <li>Git</li>
                 <li>Heroku</li>
+                <li>Netlify</li>
                 <li className="learning">Vercel</li>
                 <li className="learning">WebAssembly</li>
                 <li className="learning">FaunaDB</li>
-                <li className="learning">GraphQL</li>
               </ul>
             </div>
           </div>

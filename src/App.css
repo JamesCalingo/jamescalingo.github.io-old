@@ -10,9 +10,8 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: rgb(0,128,0);
-  background: rgb(0,128,0);
-background: linear-gradient(90deg, rgba(0,128,0,1) 0%, rgba(153,0,255,1) 70%, rgba(83,0,138,1) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(59,179,22,1) 100%);
 }
 
 p {
@@ -150,6 +149,8 @@ p {
 
 @media only screen and (max-width: 1000px) {
   body{
+    background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(59,179,22,1) 100%);
     width: 100%;
   }
 
