@@ -15,12 +15,10 @@
   },
   {
     "id": 2,
-    "title": "The JavaScript 30",
-    "link": "https://jamescalingo.github.io/jcjs30112020/",
-    "image": "/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
-    "alt": "Sapptember?",
-    "description": "The popular 30 day web course, along with my own takes on it.",
-    "github": "https://github.com/JamesCalingo/jcjs30112020"
+    "title": "Gifts in the Gazebo",
+    "link": "giftsinthegazebo.herokuapp.com",
+    "description": "Create your own personalized gift lists.",
+    "github": "https://github.com/JamesCalingo/GiftsintheGazebo"
   },
   {
     "id": 3,
@@ -31,13 +29,22 @@
   },
   {
     "id": 4,
+    "title": "The JavaScript 30",
+    "link": "https://jamescalingo.github.io/jcjs30112020/",
+    "image": "/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
+    "alt": "Sapptember?",
+    "description": "The popular 30 day web course, along with my own takes on it.",
+    "github": "https://github.com/JamesCalingo/jcjs30112020"
+  },
+  {
+    "id": 5,
     "title": "Tippa",
     "link": "https://jamescalingo.github.io/Tippa/",
     "description": "An app to calculate how much to tip - as well as how to split the tip amongst friends.",
     "github": "https://github.com/JamesCalingo/Tippa"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Psychic Game",
     "link": "https://jamescalingo.github.io/PsychicGame/",
     "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
@@ -46,7 +53,7 @@
     "github": "https://github.com/JamesCalingo/Psychic-Game"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Boom or Bust",
     "link": "https://jamescalingo.github.io/boom-or-bust",
     "image": "placehoder",
@@ -55,7 +62,7 @@
     "github": "https://github.com/JamesCalingo/boom-or-bust"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "JavaSnake",
     "link": "https://jamescalingo.github.io/JavaSnake",
     "description": "The classic Nokia phone game - made in JavaScript!",
