@@ -16,7 +16,7 @@
   {
     "id": 2,
     "title": "Gifts in the Gazebo",
-    "link": "giftsinthegazebo.herokuapp.com",
+    "link": "https://giftsinthegazebo.herokuapp.com",
     "description": "Create your own personalized gift lists.",
     "github": "https://github.com/JamesCalingo/GiftsintheGazebo"
   },
