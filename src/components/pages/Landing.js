@@ -5,7 +5,7 @@ function Landing() {
 
   return (
     <div id="landing">
-      <h1>Developer for The Internet™ and the rest of the world. Including Sealand.</h1>
+      <h1>.</h1>
       <ul className="home-menu">
       <li className='nav-item'>
         <a href='#about'>
@@ -34,7 +34,7 @@ function Landing() {
         </a>
         </li>
         <li className="nav-item">
-          <a href="https://docs.google.com/document/d/e/2PACX-1vQ2CNmUFp-JwXxwvbgYvfe9-w_5PCCeDiGdZrnBGgbpNQQ0BsDtwjNFi7Qhb6ccY5_9QujoAYZWFxAA/pub">
+          <a href="https://docs.google.com/document/d/e/2PACX-1vQcFopUsFf6TglXF6i6vTRadVZbpgs1bSS-UJ6w07hVXV1EbfkUrr5YeeMcs5tXTZwYnGcqqtQZguHk/pub">
             Resume
           </a>
         </li>
