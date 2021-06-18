@@ -5,7 +5,7 @@ function Landing() {
 
   return (
     <div id="landing">
-      <h1>.</h1>
+      <h1>Sitting at computers and typing since the 90s.</h1>
       <ul className="home-menu">
       <li className='nav-item'>
         <a href='#about'>

@@ -1,14 +1,16 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import PortfolioCard from "./PortfolioCard";
-import projects from "../../../projects.json";
+import projectsObj from "../../../projects.json";
 import "./portfolio.css";
 
-class Portfolio extends React.Component {
-  state = {
-    projects: projects,
-  };
+function Portfolio () {
+const [ projects, setProjects ] = useState([])
 
-  render() {
+useEffect(() => {
+  setProjects(projectsObj)
+}, [])
+
+  
     return (
       <div id="portfolio">
         <div className="card">
@@ -26,7 +28,7 @@ class Portfolio extends React.Component {
 
             <div className="projects">
               {/* Cards for projects */}
-              {this.state.projects.map((projects) => {
+              {projects.map((projects) => {
                 return (
                   <PortfolioCard
                     key={projects.id}
@@ -44,7 +46,7 @@ class Portfolio extends React.Component {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Portfolio;
