@@ -1,0 +1,27 @@
+[
+{
+  "id": 1,
+  "title": "Psychic Game",
+  "link": "https://jamescalingo.github.io/PsychicGame/",
+  "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
+  "alt": "Are You Psychic?",
+  "description": "Guess a randomly generated letter.\nYour odds may seem low, but you are psychic - right?",
+  "github": "https://github.com/JamesCalingo/Psychic-Game"
+},
+{
+  "id": 2,
+  "title": "Boom or Bust",
+  "link": "https://jamescalingo.github.io/boom-or-bust",
+  "image": "placehoder",
+  "alt": "Boom or Bust",
+  "description": "It's kinda like Blackjack, but EXTREME!\nA different game every time you play - can you handle it?",
+  "github": "https://github.com/JamesCalingo/boom-or-bust"
+},
+{
+  "id": 3,
+  "title": "JavaSnake",
+  "link": "https://jamescalingo.github.io/JavaSnake",
+  "description": "The classic Nokia phone game - made in JavaScript!",
+  "github": "https://github.com/JamesCalingo/JavaSnake"
+}
+]

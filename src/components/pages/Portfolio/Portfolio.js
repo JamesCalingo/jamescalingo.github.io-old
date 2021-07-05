@@ -34,6 +34,7 @@ useEffect(() => {
                     key={projects.id}
                     title={projects.title}
                     description={projects.description}
+                    technologies ={projects.technologies}
                     link={projects.link}
                     github={projects.github}
                   />

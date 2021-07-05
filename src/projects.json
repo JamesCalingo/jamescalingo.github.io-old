@@ -4,6 +4,7 @@
     "title": "The Encouragement Network",
     "link": "https://theencouragementnetwork.netlify.app",
     "description": "a database of encouraging messages.",
+    "technologies": "React, GraphQL, MongoDB, Mongoose, Bootstrap, Node, Express",
     "github": "https://github.com/JamesCalingo/theEncouragementNetwork"
   },
   {
@@ -11,6 +12,7 @@
     "title": "Where do I Worship?",
     "link": "https://jamescalingo.dev/whereDoIWorship",
     "description": "An app for finding nearby houses of worship - churches, temples, etc.",
+    "technologies": "HTML5, CSS3, JavaScript, Google Maps API, Google Places API",
     "github": "https://github.com/JamesCalingo/whereDoIWorship"
   },
   {
@@ -18,6 +20,7 @@
     "title": "Gifts in the Gazebo",
     "link": "https://giftsinthegazebo.herokuapp.com",
     "description": "Create your own personalized gift lists.",
+    "technologies": "React, MySQL, Sequelize, JSON Web Token, Bootstrap, Node, Express",
     "github": "https://github.com/JamesCalingo/GiftsintheGazebo"
   },
   {
@@ -25,15 +28,15 @@
     "title": "NodeNotes",
     "link": "https://node-notes-jamescalingo.herokuapp.com/",
     "description": " A note taking app...for your browser!",
+    "technologies": "HTML, MySQL, Bootstrap, Node, Express",
     "github": "https://github.com/JamesCalingo/NodeNotes"
   },
   {
     "id": 4,
     "title": "The JavaScript 30",
     "link": "https://jamescalingo.github.io/jcjs30112020/",
-    "image": "/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
-    "alt": "Sapptember?",
     "description": "The popular 30 day web course, along with my own takes on it.",
+    "technologies": "HTML, CSS, JavaScript",
     "github": "https://github.com/JamesCalingo/jcjs30112020"
   },
   {
@@ -41,31 +44,7 @@
     "title": "Tippa",
     "link": "https://jamescalingo.github.io/Tippa/",
     "description": "An app to calculate how much to tip - as well as how to split the tip amongst friends.",
+    "technologies": "HTML, JavaScript, Bootstrap",
     "github": "https://github.com/JamesCalingo/Tippa"
-  },
-  {
-    "id": 6,
-    "title": "Psychic Game",
-    "link": "https://jamescalingo.github.io/PsychicGame/",
-    "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
-    "alt": "Are You Psychic?",
-    "description": "Guess a randomly generated letter.\nYour odds may seem low, but you are psychic - right?",
-    "github": "https://github.com/JamesCalingo/Psychic-Game"
-  },
-  {
-    "id": 7,
-    "title": "Boom or Bust",
-    "link": "https://jamescalingo.github.io/boom-or-bust",
-    "image": "placehoder",
-    "alt": "Boom or Bust",
-    "description": "It's kinda like Blackjack, but EXTREME!\nA different game every time you play - can you handle it?",
-    "github": "https://github.com/JamesCalingo/boom-or-bust"
-  },
-  {
-    "id": 8,
-    "title": "JavaSnake",
-    "link": "https://jamescalingo.github.io/JavaSnake",
-    "description": "The classic Nokia phone game - made in JavaScript!",
-    "github": "https://github.com/JamesCalingo/JavaSnake"
   }
 ]
