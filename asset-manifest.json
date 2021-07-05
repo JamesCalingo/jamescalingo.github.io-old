@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.29b7794a.chunk.css",
+    "main.css": "/static/css/main.52079962.chunk.css",
     "main.js": "/static/js/main.1f26f9f6.chunk.js",
     "main.js.map": "/static/js/main.1f26f9f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ed233a01.js",
@@ -8,9 +8,9 @@
     "static/js/2.4ed3e418.chunk.js": "/static/js/2.4ed3e418.chunk.js",
     "static/js/2.4ed3e418.chunk.js.map": "/static/js/2.4ed3e418.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79fc8a5548be3634a40989d1a56a8adf.js": "/precache-manifest.79fc8a5548be3634a40989d1a56a8adf.js",
+    "precache-manifest.5faa6a6de7c59254c6e30a2e05cdddf1.js": "/precache-manifest.5faa6a6de7c59254c6e30a2e05cdddf1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.29b7794a.chunk.css.map": "/static/css/main.29b7794a.chunk.css.map",
+    "static/css/main.52079962.chunk.css.map": "/static/css/main.52079962.chunk.css.map",
     "static/js/2.4ed3e418.chunk.js.LICENSE.txt": "/static/js/2.4ed3e418.chunk.js.LICENSE.txt",
     "static/media/Gmail_2013.png": "/static/media/Gmail_2013.eed135a1.png",
     "static/media/picture-of-me.jpg": "/static/media/picture-of-me.40b4c410.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ed233a01.js",
     "static/js/2.4ed3e418.chunk.js",
-    "static/css/main.29b7794a.chunk.css",
+    "static/css/main.52079962.chunk.css",
     "static/js/main.1f26f9f6.chunk.js"
   ]
 }
