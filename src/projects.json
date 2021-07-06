@@ -11,7 +11,7 @@
     "id": 1,
     "title": "Where do I Worship?",
     "link": "https://jamescalingo.dev/whereDoIWorship",
-    "description": "An app for finding nearby houses of worship - churches, temples, etc.",
+    "description": "An app for finding nearby houses of worship - churches, temples, etc. Users can identify their location either by using their browser's geolocation API or by entering in their location (with assistance from Google Autocomplete), the denomination of the house of worship they seek, and will receive a map showing where the 20 nearest houses of worship are.",
     "technologies": "HTML5, CSS3, JavaScript, Google Maps API, Google Places API",
     "github": "https://github.com/JamesCalingo/whereDoIWorship"
   },

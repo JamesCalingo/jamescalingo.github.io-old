@@ -23,7 +23,7 @@ overflow-y: scroll;
 
 .portfolio-card{
   position: relative;
-  height: 375px;
+  height: 475px;
 background: white;
   border: 3px solid black;
   border-radius: 10px;
