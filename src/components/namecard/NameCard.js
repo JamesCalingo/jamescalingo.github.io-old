@@ -1,8 +1,13 @@
 import React from "react"
 import {useMediaQuery} from "react-responsive"
+import "./namecard.css"
 
 function NameCard() {
-  const taglines = ["Software Developer", "Human", "Hopeful", "Got this working!", "Funny...?", "Unprofessional Gamer", "Nice dude", "semi-retired psychologist", "Not sus", "open to suggestions"]
+  const taglines = ["Software Developer", "Web Developer"]
+
+  function flip() {
+    return Math.round(Math.random())
+  }
   
   const isSmallScreen = useMediaQuery({
     query: "(max-width: 1000px)"
@@ -14,7 +19,7 @@ function NameCard() {
      
       <div className="name">JAMES CALINGO;</div>
       <div className="tagline">
-      {taglines[0].toUpperCase()};
+      {taglines[flip()].toUpperCase()};
       </div>
     </div>
       </a>

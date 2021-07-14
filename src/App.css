@@ -10,8 +10,8 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(59,179,22,1) 100%);
+  background: midnightblue
+
 }
 
 p {
@@ -25,57 +25,6 @@ p {
 }
 
 
-#sidebar {
-  position: fixed;
-  width: 25%;
-  height: 100%;
-  text-align: center;
-  font-family: "Roboto Mono", sans-serif;
-  border-radius: 5px;
-  border-right: 5px dashed white
-}
-
-#sidebar ul {
-  margin-top: 20%;
-  font-size: 25px;
-}
-
-#sidebar li {
-  margin: 15% 0 0 -10%;
-  list-style-type: none;
-  
-}
-
-#sidebar a {
-  color: white;
-  text-decoration: none
-}
-
-#sidebar li :hover {
-  color: green;
-  background: white;
-}
-
-.nameCard {
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  font-size: 25px
-}
-
-.name {
-  background: green;
-  color: white;
-  padding: 3px;
-  border: 1px solid black
-}
-
-.tagline {
-  background: white;
-  color: black;
-  border: 1px solid black;
-}
-
 .pages {
   grid-column-start: 2;
   grid-row-start: 2;
@@ -85,7 +34,7 @@ p {
 #landing {
   text-align: center;
   font-size: clamp(1.5rem, 4.5vw, 4.5rem);
-  font-family: 'Sansita Swashed', cursive;
+  font-family: 'Roboto Mono', sans-serif;
   color: white;
 }
 
@@ -122,19 +71,7 @@ p {
   text-align: center;
 }
 
-#contact-head {
-  text-align: center;
-}
 
-#contact li {
-  font-size: 30px
-}
-
-.buttonLogo {
-  width: 32px;
-  background: white;
-  margin-right: 1%
-}
 
 #copyright {
   text-align: right;
@@ -154,11 +91,8 @@ p {
 
 @media only screen and (max-width: 1000px) {
   body{
-    background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(59,179,22,1) 100%);
     width: 100%;
   }
-
  
   .container-grid {
    max-width: 100%;
@@ -170,7 +104,6 @@ p {
     margin: 0
   }
   
-
   #sidebar {
     position: fixed;
     top: 0;

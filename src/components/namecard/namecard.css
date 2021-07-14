@@ -1,0 +1,20 @@
+
+.nameCard {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  font-size: 25px
+}
+
+.name {
+  background: green;
+  color: white;
+  padding: 3px;
+  border: 1px solid black
+}
+
+.tagline {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
-import NameCard from './NameCard'
+import NameCard from '../namecard/NameCard'
 import { useMediaQuery } from "react-responsive"
+import "./sidebar.css"
 
 
 function Sidebar () {

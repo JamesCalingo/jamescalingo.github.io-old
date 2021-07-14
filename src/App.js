@@ -4,8 +4,8 @@ import Landing from "./components/pages/Landing";
 import About from "./components/pages/About";
 import Technologies from "./components/pages/Technologies/Technologies";
 import Portfolio from "./components/pages/Portfolio/Portfolio";
-import Contact from "./components/pages/Contact";
-import Sidebar from "./components/Sidebar";
+import Contact from "./components/pages/contact/Contact";
+import Sidebar from "./components/sidebar/Sidebar";
 import MobileMenu from "./components/pages/MobileMenu";
 import "./App.css";
 
