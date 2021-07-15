@@ -1,15 +1,13 @@
-import React, {useState} from "react";
-import './technologies.css'
+import React, { useState } from "react";
+import "./technologies.css";
 
 function Technologies() {
+  const [isActive, setActive] = useState(false);
 
- const [isActive, setActive] = useState(false)
-
-  function toggleActive () {
-setActive(!isActive)
-
+  function toggleActive() {
+    setActive(!isActive);
   }
-  
+
   return (
     <div id="technologies" className="">
       <div className="card">
@@ -19,7 +17,11 @@ setActive(!isActive)
         </div>
         <div className="card-body">
           <div className="panels">
-            <div id="languages" onClick={toggleActive} className={isActive ? "active panel" : "panel"}>
+            <div
+              id="languages"
+              onClick={toggleActive}
+              className={isActive ? "active panel" : "panel"}
+            >
               <h3 className="list-header">Languages</h3>
               <ul>
                 <li>HTML</li>
@@ -31,24 +33,29 @@ setActive(!isActive)
                 <li className="learning">Go</li>
                 <li className="learning">Rust</li>
                 <li className="learning">Python</li>
-
-                
               </ul>
             </div>
-            <div id="frameworks" onClick={toggleActive} className={isActive ? "active panel" : "panel"}>
+            <div
+              id="frameworks"
+              onClick={toggleActive}
+              className={isActive ? "active panel" : "panel"}
+            >
               <h3 className="list-header">Frameworks/Libraries</h3>
               <ul>
                 <li>React</li>
                 <li>Bootstrap</li>
                 <li>JQuery</li>
                 <li className="learning">Jest</li>
-               
               </ul>
             </div>
-            <div id="other" onClick={toggleActive} className={isActive ? "active panel" : "panel"}>
+            <div
+              id="other"
+              onClick={toggleActive}
+              className={isActive ? "active panel" : "panel"}
+            >
               <h3 className="list-header">Other Important Things</h3>
               <ul>
-              <li>Node.js</li>
+                <li>Node.js</li>
                 <li>Express</li>
                 <li>MongoDB</li>
                 <li>MySQL</li>

@@ -2,7 +2,7 @@ import React from "react";
 import linkedinLogo from "./logos/LI-In-Bug.png";
 import githubLogo from "./logos/GitHub-Mark-120px-plus.png";
 import gmailLogo from "./logos/Gmail_2013.png";
-import "./contact.css"
+import "./contact.css";
 
 function Contact() {
   return (
