@@ -46,6 +46,11 @@ function Contact() {
                 Email me: james.calingo.web@gmail.com
               </a>
             </li>
+            <li>
+              <a href="https://jciscreative.dev">
+                For my more "freelance" type work, look here.
+              </a>
+            </li>
           </ul>
           {/* <form>
             <div className='form-group'>
