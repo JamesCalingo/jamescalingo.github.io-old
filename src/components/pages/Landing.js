@@ -3,7 +3,9 @@ import React from "react";
 function Landing() {
   return (
     <div id="landing">
-      <h1>Sitting at computers and typing since the 90s.</h1>
+      <h1>"We are not an army of one."</h1>
+      <p>-Anonymous</p>
+
       <ul className="home-menu">
         <li className="nav-item">
           <a href="#about">About</a>

@@ -10,7 +10,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: midnightblue
+  background: rgb(6, 2, 43)
 
 }
 
@@ -41,7 +41,7 @@ p {
 .profile-pic {
   float: left;
   margin: 0 10px;
-  width: 25%
+  width: 25%;
 }
 
 .card {
