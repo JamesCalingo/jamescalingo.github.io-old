@@ -1,27 +1,27 @@
 [
   {
     "id": 0,
+    "title": "Gifts in the Gazebo",
+    "link": "https://giftsinthegazebo.herokuapp.com",
+    "description": "An app that allows users to create personalized gift lists. Using MySQL, items that users want are stored in a database, along with links to various websites where those items can be purchased.",
+    "technologies": "React, MySQL, Sequelize, JSON Web Token, Bootstrap, Node, Express, SweetAlert, React-Toastify",
+    "github": "https://github.com/JamesCalingo/GiftsintheGazebo"
+  },
+  {
+    "id": 1,
     "title": "The Encouragement Network",
     "link": "https://theencouragementnetwork.netlify.app",
-    "description": "a database of encouraging messages.",
+    "description": "A social media/network where people can send/see anonymous messages of encouragement and hope.",
     "technologies": "React, GraphQL, MongoDB, Mongoose, Bootstrap, Node, Express",
     "github": "https://github.com/JamesCalingo/theEncouragementNetwork"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Where do I Worship?",
     "link": "https://jamescalingo.dev/whereDoIWorship",
     "description": "An app for finding nearby houses of worship - churches, temples, etc. Users can identify their location either by using their browser's geolocation API or by entering in their location (with assistance from Google Autocomplete), the denomination of the house of worship they seek, and will receive a map showing where the 20 nearest houses of worship are.",
     "technologies": "HTML5, CSS3, JavaScript, Google Maps API, Google Places API",
     "github": "https://github.com/JamesCalingo/whereDoIWorship"
-  },
-  {
-    "id": 2,
-    "title": "Gifts in the Gazebo",
-    "link": "https://giftsinthegazebo.herokuapp.com",
-    "description": "Create your own personalized gift lists.",
-    "technologies": "React, MySQL, Sequelize, JSON Web Token, Bootstrap, Node, Express",
-    "github": "https://github.com/JamesCalingo/GiftsintheGazebo"
   },
   {
     "id": 3,

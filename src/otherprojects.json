@@ -23,5 +23,21 @@
   "link": "https://jamescalingo.github.io/JavaSnake",
   "description": "The classic Nokia phone game - made in JavaScript!",
   "github": "https://github.com/JamesCalingo/JavaSnake"
+},
+{
+  "id": 4,
+  "title": "The JavaScript 30",
+  "link": "https://jamescalingo.github.io/jcjs30112020/",
+  "description": "The popular 30 day web course, along with my own takes on it.",
+  "technologies": "HTML, CSS, JavaScript",
+  "github": "https://github.com/JamesCalingo/jcjs30112020"
+},
+{
+  "id": 5,
+  "title": "Tippa",
+  "link": "https://jamescalingo.github.io/Tippa/",
+  "description": "An app to calculate how much to tip - as well as how to split the tip amongst friends.",
+  "technologies": "HTML, JavaScript, Bootstrap",
+  "github": "https://github.com/JamesCalingo/Tippa"
 }
 ]
