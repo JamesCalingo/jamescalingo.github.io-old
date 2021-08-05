@@ -4,6 +4,7 @@ import Landing from "./components/pages/Landing";
 import About from "./components/pages/About";
 import Technologies from "./components/pages/Technologies/Technologies";
 import Portfolio from "./components/pages/Portfolio/Portfolio";
+import TheGarage from "./components/pages/Portfolio/TheGarage"
 import Contact from "./components/pages/contact/Contact";
 import Sidebar from "./components/sidebar/Sidebar";
 import MobileMenu from "./components/pages/MobileMenu";
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/mobile-menu" component={MobileMenu} />
+          <Route exact path="/garage" component={TheGarage} />
         </HashRouter>
         <footer id="copyright">© James Calingo</footer>
       </div>

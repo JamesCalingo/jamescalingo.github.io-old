@@ -3,8 +3,8 @@ import React from "react";
 function Landing() {
   return (
     <div id="landing">
-      <h1>"We are not an army of one."</h1>
-      <p>-Anonymous</p>
+      <h1>Web and software developer</h1>
+    
 
       <ul className="home-menu">
         <li className="nav-item">

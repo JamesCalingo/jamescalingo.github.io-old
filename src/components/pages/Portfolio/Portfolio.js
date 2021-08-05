@@ -28,15 +28,15 @@ function Portfolio() {
 
           <div className="projects">
             {/* Cards for projects */}
-            {projects.map((projects) => {
+            {projects.map((project) => {
               return (
                 <PortfolioCard
-                  key={projects.id}
-                  title={projects.title}
-                  description={projects.description}
-                  technologies={projects.technologies}
-                  link={projects.link}
-                  github={projects.github}
+                  key={project.id}
+                  title={project.title}
+                  description={project.description}
+                  technologies={project.technologies}
+                  link={project.link}
+                  github={project.github}
                 />
               );
             })}

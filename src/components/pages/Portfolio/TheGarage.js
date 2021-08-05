@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PortfolioCard from "./PortfolioCard";
-import oldProjects from "../../../projects.json";
+import oldProjects from "../../../otherprojects.json";
 import "./portfolio.css";
 
 function TheGarage() {
@@ -10,6 +10,7 @@ function TheGarage() {
     setProjects(oldProjects);
   }, []);
 
+  console.log(projects)
   return (
     <div>
       <h1>"The Garage"</h1>
@@ -22,12 +23,12 @@ function TheGarage() {
       {oldProjects.map((project) => {
         return (
           <PortfolioCard
-            key={projects.id}
-            title={projects.title}
-            description={projects.description}
-            technologies={projects.technologies}
-            link={projects.link}
-            github={projects.github}
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            technologies={project.technologies}
+            link={project.link}
+            github={project.github}
           />
         );
       })}
