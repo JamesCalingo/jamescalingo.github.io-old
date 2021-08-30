@@ -3,7 +3,7 @@ import React from "react";
 function Landing() {
   return (
     <div id="landing">
-      <h1>Web and software developer</h1>
+      <h1>"Technology is the light that can cut through the darkness."</h1>
     
 
       <ul className="home-menu">
