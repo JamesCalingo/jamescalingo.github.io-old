@@ -4,7 +4,7 @@
     "title": "Giftstar",
     "link": "https://giftstar.herokuapp.com",
     "description": "An app that allows users to create personalized gift lists. Using MySQL, items that users want are stored in a database, along with links to various websites where those items can be purchased.",
-    "technologies": "React, MySQL, Sequelize, JSON Web Token, Bootstrap, Node, Express, SweetAlert, React-Toastify",
+    "technologies": "React, MySQL, Sequelize, JSON Web Token, Bootstrap, NodeJS, Express, SweetAlert, React-Toastify",
     "github": "https://github.com/JamesCalingo/GiftsintheGazebo"
   },
   {
