@@ -9,14 +9,6 @@
   },
   {
     "id": 1,
-    "title": "The Encouragement Network",
-    "link": "https://theencouragementnetwork.netlify.app",
-    "description": "A social media/network where people can send/see anonymous messages of encouragement and hope.",
-    "technologies": "React, GraphQL, MongoDB, Mongoose, Bootstrap, Node, Express",
-    "github": "https://github.com/JamesCalingo/theEncouragementNetwork"
-  },
-  {
-    "id": 2,
     "title": "Where do I Worship?",
     "link": "https://jamescalingo.dev/whereDoIWorship",
     "description": "An app for finding nearby houses of worship - churches, temples, etc. Users can identify their location either by using their browser's geolocation API or by entering in their location (with assistance from Google Autocomplete), the denomination of the house of worship they seek, and will receive a map showing where the 20 nearest houses of worship are.",
@@ -24,10 +16,10 @@
     "github": "https://github.com/JamesCalingo/whereDoIWorship"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "NodeNotes",
     "link": "https://node-notes-jamescalingo.herokuapp.com/",
-    "description": " A note taking app...for your browser!",
+    "description": " A note taking app...for your browser! Users can take notes with this app and then access them on any other device they so choose via their web browser.",
     "technologies": "HTML, MySQL, Bootstrap, Node, Express",
     "github": "https://github.com/JamesCalingo/NodeNotes"
   }

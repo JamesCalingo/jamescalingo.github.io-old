@@ -1,6 +1,6 @@
 [
 {
-  "id": 1,
+  "id": 0,
   "title": "Psychic Game",
   "link": "https://jamescalingo.github.io/PsychicGame/",
   "image": "/Users/jamescalingo/Desktop/jamescalingo.github.io/src/images/app-images/screencapture-node-notes-jamescalingo-herokuapp-2019-07-12-11_58_14.png",
@@ -39,5 +39,13 @@
   "description": "An app to calculate how much to tip - as well as how to split the tip amongst friends.",
   "technologies": "HTML, JavaScript, Bootstrap",
   "github": "https://github.com/JamesCalingo/Tippa"
+},
+{
+  "id": 1,
+  "title": "The Encouragement Network",
+  "link": "https://theencouragementnetwork.netlify.app",
+  "description": "A social media/network where people can send/see anonymous messages of encouragement and hope.",
+  "technologies": "React, GraphQL, MongoDB, Mongoose, Bootstrap, Node, Express",
+  "github": "https://github.com/JamesCalingo/theEncouragementNetwork"
 }
 ]
