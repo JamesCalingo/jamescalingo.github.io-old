@@ -1,7 +1,9 @@
 import React from "react";
-import NameCard from "../namecard/NameCard";
+import NameCard from "./namecard/NameCard";
+import Logobar from "./Logobar/Logobar"
 import { useMediaQuery } from "react-responsive";
 import "./sidebar.css";
+
 
 function Sidebar() {
   const isSmallScreen = useMediaQuery({
@@ -11,6 +13,7 @@ function Sidebar() {
   return (
     <div id="sidebar" className={isSmallScreen ? "small-screen" : ""}>
       <NameCard />
+      <Logobar />
       <ul className={isSmallScreen ? "dropdown-content" : ""}>
         <li className="nav-item">
           <a href="#about">About</a>
@@ -22,9 +25,9 @@ function Sidebar() {
         <li className="nav-item">
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a href="#contact">Contact Me</a>
-        </li>
+        </li> */}
         <li className="nav-item">
           <a href="https://jamescalingo.com/">Blog</a>
         </li>

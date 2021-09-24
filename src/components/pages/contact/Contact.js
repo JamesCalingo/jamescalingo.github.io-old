@@ -1,7 +1,4 @@
 import React from "react";
-import linkedinLogo from "./logos/LI-In-Bug.png";
-import githubLogo from "./logos/GitHub-Mark-120px-plus.png";
-import gmailLogo from "./logos/Gmail_2013.png";
 import "./contact.css";
 
 function Contact() {
@@ -20,32 +17,6 @@ function Contact() {
             </p>
           </div>
           <ul className="contact-list">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/james-calingo/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={linkedinLogo} className="buttonLogo" alt="LinkedIn" />
-                Connect with me on LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.github.com/JamesCalingo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={githubLogo} className="buttonLogo" alt="GitHub" />
-                Check me out on GitHub
-              </a>
-            </li>
-            <li>
-              <a href="mailto:james.calingo.web@gmail.com">
-                <img src={gmailLogo} alt="Email me" className="buttonLogo" />
-                Email me: james.calingo.web@gmail.com
-              </a>
-            </li>
             <li>
               <a href="https://jciscreative.dev">
                 For my more "freelance" type work, look here.
